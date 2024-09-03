@@ -332,7 +332,7 @@ jobs:
           ini-values: memory_limit=2G, display_errors=On, error_reporting=-1
           tools: pecl
       - name: Download PHAR file
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: phpDocumentor.phar
           path: build
